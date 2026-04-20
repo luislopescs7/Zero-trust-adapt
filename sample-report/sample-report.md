@@ -1,4 +1,6 @@
-# Zero Trust Adapt – Sample Report
+> This report is automatically generated based on a structured Zero Trust assessment.
+>
+> # Zero Trust Adapt – Sample Report
 
 ## Company Overview
 
@@ -16,6 +18,7 @@ The organisation demonstrates a developing level of security maturity, with some
 The most significant risks relate to identity protection, lack of endpoint visibility, and absence of network segmentation. These gaps increase exposure to common attack vectors such as phishing, credential compromise, and lateral movement.
 
 Addressing these areas will significantly improve the overall security posture in the short term.
+This report prioritises actions that deliver the highest risk reduction with minimal operational disruption.
 
 ---
 
@@ -93,24 +96,38 @@ Addressing these areas will significantly improve the overall security posture i
 ### Short-Term (0–30 days)
 
 - Enforce MFA across all user accounts  
+  Impact: High | Effort: Low
+
 - Secure administrative accounts  
+  Impact: High | Effort: Low
+
 - Enable centralised logging for critical systems  
+  Impact: Medium | Effort: Medium 
 
 ---
 
 ### Mid-Term (1–3 months)
 
 - Deploy EDR solution  
-- Implement network segmentation  
-- Integrate systems into SIEM  
+  Impact: High | Effort: Medium
 
+- Implement network segmentation  
+  Impact: High | Effort: High
+
+- Integrate systems into SIEM  
+  Impact: High | Effort: Medium
 ---
 
 ### Long-Term (3–12 months)
 
 - Introduce automation (SOAR)  
+  Impact: Medium | Effort: High
+
 - Implement Zero Trust Network Access (ZTNA)  
+  Impact: High | Effort: High
+
 - Continuous monitoring and optimisation  
+  Impact: Medium | Effort: Medium
 
 ---
 
@@ -119,3 +136,12 @@ Addressing these areas will significantly improve the overall security posture i
 The organisation is at an early stage of Zero Trust adoption. By focusing on identity, endpoint security, and visibility, it is possible to significantly reduce risk within a short timeframe.
 
 A structured, phased approach will enable a smooth transition towards a more resilient and modern security architecture.
+
+---
+
+## Alignment with Industry Standards
+
+Recommendations in this report align with recognised frameworks such as:
+
+- NIST Zero Trust Architecture (SP 800-207)
+- ISO 27001 security controls
